@@ -1,0 +1,1 @@
+import{V as t,c as a,o as n,b as s,O as c,a7 as r}from"./D56a0PQy.js";const u={__name:"docs",setup(d){return t(()=>{document.documentElement.classList.add("dark")}),(e,l)=>{const o=r("Navigation");return n(),a("div",null,[s(o),c(e.$slots,"default")])}}};export{u as default};
