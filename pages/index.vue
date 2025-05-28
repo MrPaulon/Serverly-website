@@ -13,7 +13,7 @@
 
       <!-- Boutons desktop -->
       <div class="hidden md:flex flex-row items-center space-x-4 text-indigo-300 font-medium">
-        <UButton icon="solar:document-bold-duotone" size="lg" color="primary" variant="subtle" to="/" style="color: var(--color-text);">Documentation</UButton>
+        <UButton icon="solar:document-bold-duotone" size="lg" color="primary" variant="subtle" to="https://serverly.gitbook.io/serverly-docs/" style="color: var(--color-text);">Documentation</UButton>
         <UButton icon="line-md:github-twotone" size="lg" color="primary" variant="subtle" to="https://github.com/mrpaulon/serverly" style="color: var(--color-text);">Github</UButton>
         <UButton icon="ic:sharp-discord" size="lg" color="primary" variant="subtle" to="https://discord.gg/BmvNZKMHV2" style="color: var(--color-text);">Discord</UButton>
       </div>
@@ -56,7 +56,7 @@
         <p class="text-lg md:text-xl mb-8 text-indigo-200">
           Une interface moderne pour monitorer, contrôler et automatiser vos serveurs.
         </p>
-        <UButton icon="solar:document-bold" size="xl" color="primary" variant="solid" to="/" style="color: var(--color-text);" class="mt-4 text-xl px-5 py-3">Voir la documentation</UButton>
+        <UButton icon="solar:document-bold" size="xl" color="primary" variant="solid" to="https://serverly.gitbook.io/serverly-docs/" style="color: var(--color-text);" class="mt-4 text-xl px-5 py-3">Voir la documentation</UButton>
       </div>
     </section>
 
@@ -140,7 +140,7 @@
         <img src="/logo.png" alt="Serverly Logo" class="w-40 h-40 object-contain" />
         <h2 class="text-3xl font-bold">The Future of Easy Hosting</h2>
         <UButton
-          to="/"
+          to="https://serverly.gitbook.io/serverly-docs/"
           size="lg"
           color="primary"
           variant="solid"
@@ -150,6 +150,29 @@
         >
           Démarrer maintenant
         </UButton>
+      </div>
+    </section>
+
+    <section style="background-color: var(--color-background);" class="py-20 px-6 gallery-texture">
+      <div style="background-color: var(--color-surface); border-radius: 20px;" class="max-w-4xl mx-auto rounded-xl p-4 flex flex-col md:flex-row items-center relative overflow-hidden shadow-lg text-indigo-100">
+        <!-- Image France à gauche -->
+        <div class="relative md:w-1/2" style="margin: 5px;">
+          <img
+            src="/france.jpg"
+            alt="Carte de la France"
+            class="w-90"
+            style="border-radius: 10px;"
+          />
+        </div>
+
+        <!-- Texte à droite -->
+        <div class="md:w-1/2 text-center md:text-left" style="margin: 30px;">
+          <h2 class="text-2xl font-bold mb-4">Made in France 🇫🇷</h2>
+          <p class="text-indigo-300 text-lg leading-relaxed" style="text-align: left;">
+            Nous sommes fiers de concevoir et d’héberger Serverly en France.  
+            Une technologie pensée et développée collectivement, avec passion, pour accompagner les administrateurs exigeants.
+          </p>
+        </div>
       </div>
     </section>
 

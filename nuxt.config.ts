@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       title: 'Serverly',
       htmlAttrs: {
         lang: 'fr',
+        class: 'dark'
       },
     }
   }
